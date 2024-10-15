@@ -1,0 +1,73 @@
+.background-container {
+  background-image: url('../../assets/bg-landing.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.artist-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.artist-card:hover {
+  transform: scale(1.05);
+}
+
+.artist-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.artist-name {
+  font-size: 24px;
+  color: #333;
+}
+
+.artist-info {
+  font-size: 16px;
+  color: #555;
+}
+
+.flag-icon {
+  margin-left: 10px;
+  transform: translateY(5px);
+  width: 34px;
+  height: 22px;
+}
+
+.section-title {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #777;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links li img {
+  width: 24px;
+  height: 24px;
+}
+
